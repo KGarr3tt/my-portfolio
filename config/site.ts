@@ -15,7 +15,6 @@ export const siteConfig = {
   logoIcon:
     "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357294/assets/naman-logo.png",
   keywords: [
-    "Naman Barkiya",
     "Full Stack Developer",
     "Web Developer Portfolio",
     "Next.js portfolio template",
