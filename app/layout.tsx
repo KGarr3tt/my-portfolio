@@ -2,7 +2,7 @@ import "./globals.css";
 
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Inter as FontSans } from "next/font/google";
-import localFont from "next/font/local";
+import { JetBrains_Mono } from "next/font/google";
 
 import { Analytics } from "@/components/common/analytics";
 import { ThemeProvider } from "@/components/common/theme-provider";
@@ -17,9 +17,10 @@ const fontSans = FontSans({
 });
 
 // Font files can be colocated inside of `pages`
-const fontHeading = localFont({
-  src: "../assets/fonts/CalSans-SemiBold.woff2",
+const fontHeading = JetBrains_Mono({
+  subsets: ["latin"],
   variable: "--font-heading",
+  weight: ["500", "600", "700"],
 });
 
 interface RootLayoutProps {
