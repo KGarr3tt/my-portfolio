@@ -1,9 +1,9 @@
 export const siteConfig = {
-  name: "Karl Garrett | Developer Portfolio",
+  name: "Karl Garrett | Data Science Portfolio",
   authorName: "Karl Garrett",
   username: "KGarr3tt",
   description:
-    "Naman Barkiya's portfolio - A modern, responsive Next.js portfolio for developers. This open-source template can be customized to showcase your own skills, projects, and professional experience.",
+    "Data science enthusiast passionate about AI. Sharing my learning journey through projects and experiments.",
   url: "https://nbarkiya.xyz",
   links: {
     twitter: "https://x.com/namanbarkiya",
