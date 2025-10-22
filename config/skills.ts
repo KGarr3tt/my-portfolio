@@ -120,7 +120,6 @@ export const skillsUnsorted: skillsInterface[] = [
   //   rating: 4,
   //   icon: Icons.mui,
   // },
-
   // {
   //   name: "Tailwind CSS",
   //   description:
