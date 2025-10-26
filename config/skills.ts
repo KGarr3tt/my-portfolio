@@ -8,152 +8,110 @@ export interface skillsInterface {
 }
 
 export const skillsUnsorted: skillsInterface[] = [
-  // {
-  //   name: "Next.js",
-  //   description:
-  //     "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
-  //   rating: 5,
-  //   icon: Icons.nextjs,
-  // },
-  // {
-  //   name: "React",
-  //   description:
-  //     "Craft interactive user interfaces using components, state, props, and virtual DOM.",
-  //   rating: 5,
-  //   icon: Icons.react,
-  // },
   {
-    name: "GraphQL",
+    name: "Python",
     description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
+      "Build data pipelines, perform analysis, and create machine learning models with the versatile programming language.",
+    rating: 5,
+    icon: Icons.python,
+  },
+  {
+    name: "SQL",
+    description:
+      "Query, manipulate, and analyze data efficiently across relational databases.",
+    rating: 5,
+    icon: Icons.sql,
+  },
+  {
+    name: "Pandas",
+    description:
+      "Transform and analyze data with powerful data manipulation and analysis library for Python.",
+    rating: 5,
+    icon: Icons.pandas,
+  },
+  {
+    name: "Apache Spark",
+    description:
+      "Process massive datasets at scale with distributed computing for big data analytics.",
     rating: 4,
-    icon: Icons.graphql,
+    icon: Icons.spark,
   },
   {
-    name: "Nest.js",
+    name: "Tableau",
     description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
+      "Create interactive dashboards and visualizations to communicate insights effectively.",
     rating: 4,
-    icon: Icons.nestjs,
+    icon: Icons.tableau,
   },
   {
-    name: "express.js",
+    name: "Power BI",
     description:
-      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
-    rating: 5,
-    icon: Icons.express,
+      "Build business intelligence reports and dashboards for data-driven decision making.",
+    rating: 4,
+    icon: Icons.powerbi,
   },
   {
-    name: "Node.js",
+    name: "Scikit-learn",
     description:
-      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
-    rating: 5,
-    icon: Icons.nodejs,
+      "Build and deploy machine learning models with Python's most popular ML library.",
+    rating: 4,
+    icon: Icons.scikitlearn,
   },
   {
-    name: "MongoDB",
+    name: "Apache Airflow",
     description:
-      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
-    rating: 5,
-    icon: Icons.mongodb,
+      "Orchestrate complex data workflows and pipelines with programmatic scheduling.",
+    rating: 4,
+    icon: Icons.airflow,
   },
   {
-    name: "Typescript",
+    name: "dbt",
     description:
-      "Enhance JavaScript with static types, making code more understandable and reliable.",
-    rating: 5,
-    icon: Icons.typescript,
+      "Transform data in your warehouse with analytics engineering best practices and version control.",
+    rating: 4,
+    icon: Icons.dbt,
   },
   {
-    name: "Javascript",
+    name: "Snowflake",
     description:
-      "Create interactive and dynamic web experiences with the versatile scripting language.",
-    rating: 5,
-    icon: Icons.javascript,
+      "Leverage cloud data warehousing for scalable analytics and data sharing.",
+    rating: 4,
+    icon: Icons.snowflake,
   },
-  // {
-  //   name: "HTML 5",
-  //   description:
-  //     "Structure web content beautifully with the latest version of HyperText Markup Language.",
-  //   rating: 4,
-  //   icon: Icons.html5,
-  // },
-  // {
-  //   name: "CSS 3",
-  //   description:
-  //     "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
-  //   rating: 4,
-  //   icon: Icons.css3,
-  // },
-  // {
-  //   name: "React Native",
-  //   description:
-  //     "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
-  //   rating: 4,
-  //   icon: Icons.react,
-  // },
-  // {
-  //   name: "Angular",
-  //   description:
-  //     "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
-  //   rating: 3,
-  //   icon: Icons.angular,
-  // },
-  // {
-  //   name: "Redux",
-  //   description:
-  //     "Manage app state effectively using a predictable and centralized state container.",
-  //   rating: 4,
-  //   icon: Icons.redux,
-  // },
-  // {
-  //   name: "Socket.io",
-  //   description:
-  //     "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-  //   rating: 3,
-  //   icon: Icons.socketio,
-  // },
-  // {
-  //   name: "Material UI",
-  //   description:
-  //     "Create stunning and responsive UIs with a popular React UI framework.",
-  //   rating: 4,
-  //   icon: Icons.mui,
-  // },
-  // {
-  //   name: "Tailwind CSS",
-  //   description:
-  //     "Design beautiful, modern websites faster with a utility-first CSS framework.",
-  //   rating: 5,
-  //   icon: Icons.tailwindcss,
-  // },
   {
-    name: "AWS",
+    name: "Azure",
     description:
-      "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
+      "Deploy data solutions using Azure Data Factory, Synapse Analytics, Databricks, and Blob Storage.",
+    rating: 4,
+    icon: Icons.azure,
+  },
+  {
+    name: "PostgreSQL",
+    description:
+      "Design and query robust relational databases with advanced SQL features.",
+    rating: 4,
+    icon: Icons.postgresql,
+  },
+  {
+    name: "Docker",
+    description:
+      "Containerize data applications and pipelines for consistent deployment across environments.",
     rating: 3,
-    icon: Icons.amazonaws,
+    icon: Icons.docker,
   },
-  // {
-  //   name: "Bootstrap",
-  //   description:
-  //     "Quickly create responsive and appealing web designs using a popular CSS framework.",
-  //   rating: 2,
-  //   icon: Icons.bootstrap,
-  // },
-  // {
-  //   name: "MySQL",
-  //   description:
-  //     "Manage and organize relational databases efficiently for data-driven applications.",
-  //   rating: 2,
-  //   icon: Icons.mysql,
-  // },
   {
-    name: "Netlify",
+    name: "Jupyter",
     description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 4,
-    icon: Icons.netlify,
+      "Explore and document analysis interactively with notebooks for data science workflows.",
+    rating: 5,
+    icon: Icons.jupyter,
+  },
+  {
+    name: "TensorFlow",
+    description:
+      "Build and train deep learning models for advanced analytics and AI applications.",
+    rating: 3,
+    icon: Icons.tensorflow,
   },
 ];
 
